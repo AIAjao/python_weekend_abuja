@@ -1,0 +1,16 @@
+p{
+color: red;
+ font-style:italic
+}
+
+.published{
+    color:gray;
+    front-size:30px;
+text-align: center;
+}
+
+header{
+    height: 150px;
+background-color: cadetblue;
+text-align: center;
+}
