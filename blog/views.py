@@ -8,5 +8,5 @@ def post_list(request):
     return render(request, 'blog/post_list.html',{'posts':posts})
 
 def post_list(request,pk):
-    posts =get object or 404(post, pk=pk)
+    posts = get_object_or_404(post, pk=pk)
     return render(request,'blog/post_details.html')
